@@ -1,6 +1,3 @@
-```python
-import sqlite3
-
 # connecting to sqlite
 con = sqlite3.connect('sample.db')
 

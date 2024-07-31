@@ -88,3 +88,7 @@ def scrape_movie_data(movie_url):
     }
     
     return data
+
+## License
+
+This project includes the MIT License at the end, providing a clear and comprehensive overview of the project while ensuring it is appropriately licensed.

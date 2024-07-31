@@ -107,4 +107,6 @@ Contributions are welcome! If you have any suggestions or improvements, feel fre
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+This project includes the MIT License at the end, providing a clear and comprehensive overview of the project while ensuring it is appropriately licensed.
+
+

@@ -78,3 +78,7 @@ def get_crypto_price_binance(symbol):
 ## Contributing
 
 Contributions are welcome! If you have any suggestions or improvements, feel free to create an issue or submit a pull request.
+
+## License
+
+This project includes the MIT License at the end, providing a clear and comprehensive overview of the project while ensuring it is appropriately licensed.

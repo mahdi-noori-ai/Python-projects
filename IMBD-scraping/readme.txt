@@ -1,6 +1,3 @@
-
----
-
 # IMDb Movie Data Scraper
 
 Welcome to the IMDb Movie Data Scraper project! This repository contains a Python script to scrape movie data from IMDb using requests and BeautifulSoup libraries.  you can use this script to collect movie data for various data analysis and machine learning projects.
@@ -116,5 +113,3 @@ Contributions are welcome! If you have any suggestions or improvements, please f
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----

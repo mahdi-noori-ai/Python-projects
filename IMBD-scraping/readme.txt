@@ -1,6 +1,9 @@
+
+---
+
 # IMDb Movie Data Scraper
 
-Welcome to the IMDb Movie Data Scraper project! This repository contains a Python script to scrape movie data from IMDb using requests and BeautifulSoup libraries. As a machine learning developer and data scientist, you can use this script to collect movie data for various data analysis and machine learning projects.
+Welcome to the IMDb Movie Data Scraper project! This repository contains a Python script to scrape movie data from IMDb using requests and BeautifulSoup libraries.  you can use this script to collect movie data for various data analysis and machine learning projects.
 
 ## Table of Contents
 
@@ -25,18 +28,28 @@ cd imdb-movie-scraper
 pip install -r requirements.txt
 ```
 
+### Setting Up a Virtual Environment
+
+It is recommended to use a virtual environment to manage dependencies. Here's how you can set it up:
+
+```bash
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+```
+
 ## Usage
 
 To use the script, run the following command with the IMDb movie URL as an argument:
 
 ```bash
-python IMBD-scraping.py <movie_url>
+python IMDB-scraping.py <movie_url>
 ```
 
 For example:
 
 ```bash
-python IMBD-scraping.py https://www.imdb.com/title/tt0111161/
+python IMDB-scraping.py https://www.imdb.com/title/tt0111161/
 ```
 
 ### Example Usage in Script
@@ -44,7 +57,7 @@ python IMBD-scraping.py https://www.imdb.com/title/tt0111161/
 You can also import the `scrape_movie_data` function into your Python script and use it as follows:
 
 ```python
-from IMBD_scraping import scrape_movie_data
+from IMDB_scraping import scrape_movie_data
 
 movie_url = 'https://www.imdb.com/title/tt0111161/'
 movie_data = scrape_movie_data(movie_url)
@@ -60,7 +73,7 @@ The script uses the `requests` library to send HTTP requests to IMDb and `Beauti
 - Genre
 - Summary
 
-Here's a brief overview of the main function:
+### Example of Main Function
 
 ```python
 import requests
@@ -88,7 +101,20 @@ def scrape_movie_data(movie_url):
     }
     
     return data
+```
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions or improvements, please follow these steps:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add new feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Create a pull request.
 
 ## License
 
-This project includes the MIT License at the end, providing a clear and comprehensive overview of the project while ensuring it is appropriately licensed.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---

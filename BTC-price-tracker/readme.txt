@@ -1,5 +1,3 @@
----
-
 # Bitcoin Price Tracker
 
 Welcome to the Bitcoin Price Tracker project! This repository contains a Python script to track the price of Bitcoin using the Binance API. you can use this script to collect Bitcoin price data for various data analysis and machine learning projects.
@@ -99,5 +97,3 @@ Contributions are welcome! If you have any suggestions or improvements, please f
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----

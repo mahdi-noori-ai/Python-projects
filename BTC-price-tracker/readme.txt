@@ -1,7 +1,8 @@
+---
 
 # Bitcoin Price Tracker
 
-Welcome to the Bitcoin Price Tracker project! This repository contains a Python script to track the price of Bitcoin using the Binance API. As a machine learning developer and data scientist, you can use this script to collect Bitcoin price data for various data analysis and machine learning projects.
+Welcome to the Bitcoin Price Tracker project! This repository contains a Python script to track the price of Bitcoin using the Binance API. you can use this script to collect Bitcoin price data for various data analysis and machine learning projects.
 
 ## Table of Contents
 
@@ -23,6 +24,16 @@ To get started with the project, clone the repository and install the required d
 ```bash
 git clone https://github.com/yourusername/bitcoin-price-tracker.git
 cd bitcoin-price-tracker
+pip install -r requirements.txt
+```
+
+### Setting Up a Virtual Environment
+
+It is recommended to use a virtual environment to manage dependencies. Here's how you can set it up:
+
+```bash
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
@@ -77,8 +88,16 @@ def get_crypto_price_binance(symbol):
 
 ## Contributing
 
-Contributions are welcome! If you have any suggestions or improvements, feel free to create an issue or submit a pull request.
+Contributions are welcome! If you have any suggestions or improvements, please follow these steps:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add new feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Create a pull request.
 
 ## License
 
-This project includes the MIT License at the end, providing a clear and comprehensive overview of the project while ensuring it is appropriately licensed.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---

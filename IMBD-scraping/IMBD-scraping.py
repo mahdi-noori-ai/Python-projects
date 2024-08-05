@@ -68,7 +68,7 @@ def main():
         except Exception as e:
             print(f"Error scraping {url}: {e}")
 
-    # Creating a DataFrame
+    # Creating a DataFrame :
     movies_df = pd.DataFrame(movies_data)
 
     # Display the DataFrame
